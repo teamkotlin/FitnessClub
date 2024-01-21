@@ -1,0 +1,86 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem 2rem 2rem;
+}
+.plans-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.plans-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    
+}
+.plans-cards > div:nth-child(2){
+    background: var(--planCard);
+    transform: scale(1.1);
+    margin: 0rem 1rem ;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background :var(--caloryCard);
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.plan >:nth-child(1){
+    width: 5rem;
+    height: 3rem;
+    fill: var(--orange);
+    padding-bottom: 1rem;
+}
+.plan > :nth-child(2){
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.plan > :nth-child(3){
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.features{
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.feature{
+    display: flex;
+    gap: 1rem;
+}
+.plan >:nth-child(5){
+    color: white;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+.plan > button{
+    color: black;
+    background-color: white;
+    margin-top: 4rem;
+    transition: 300ms all;
+}
+.plans-cards >:nth-child(2) > button{
+    color: orange;
+}
+.plans-cards >:nth-child(2) > svg{
+    fill: white;
+}
+.plan > button:hover{
+    transform: scale(1.05);
+}
