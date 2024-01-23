@@ -1,0 +1,32 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3re;
+    align-items: center;
+}
+.footer-container>hr{
+    width: 100%;
+    color: white;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.social-icons>img{
+    width: 3rem;
+    height: 3rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.logo>img{
+    width: 15rem;
+    
+}
