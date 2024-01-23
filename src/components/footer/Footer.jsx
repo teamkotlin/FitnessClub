@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
         <hr />
+        <div className="blur footer-blur"></div>
       <div className='social-icons'>
         <img src={Github} alt="" />
         <img src={Instagram} alt="" />

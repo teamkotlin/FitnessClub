@@ -5,6 +5,8 @@ import {plansData} from '../../data/plansData'
 const Plans = () => {
   return (
     <div className='plans'>
+      <div className="blur plans-blur-l"></div>
+      <div className="blur plans-blur-r"></div>
       <div className="plans-header">
         <span className='stroke-text'>Ready to start</span>
         <span>Your journey</span>

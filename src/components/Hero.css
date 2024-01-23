@@ -1,6 +1,13 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    
+}
+.hero-blur{
+    width: 32rem;
+    height: 23rem;
+    top: 0rem;
+    
 }
 .left-h{
     padding:1.5rem 2.5rem 0 2.5rem;
